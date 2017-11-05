@@ -1,14 +1,44 @@
 @import url('https://fonts.googleapis.com/css?family=Questrial');
 
 body, html {
-    background-color: #dddddd;
+    background-color: #ffffff;
     font-family: 'Questrial', sans-serif;
     height: 100%;
 }
 
+/* Button Styles */
+.btn {
+    text-transform: uppercase;
+}
+
+.btn:active,
+.btn.active {
+    outline: 0;
+    background-image: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.btn-primary {
+    border-color: #cccccc;
+    background-color: #cccccc;
+    color: #2b3555;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+    color: #2b3555;
+    background-color: #888888;
+    border-color: #888888;
+}
+
 /* Navbar Styles */
 .navbar-default {
-    background-color: #dddddd;
+    background-color: #cccccc;
     border: none;
     margin-bottom: 0;
     position: fixed;
@@ -77,7 +107,7 @@ body, html {
     background-image: url("../img/laptop.jpeg");
 
     /* Hero image height */
-    height: 55%;
+    height: 100vh;
 
     /* Position and center the image */
     background-position: center;
@@ -87,7 +117,7 @@ body, html {
 }
 
 .hero-text {
-    color: white;
+    color: #ffffff;
     position: absolute;
     left: 50%;
     top: 55%;
@@ -99,5 +129,23 @@ body, html {
 }
 
 .hero-text p {
-    font-size: 1.5em;
+    font-size: 2em;
+}
+
+.hero-bottom {
+    color: #00c3ca;
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    transform: translate(-50%, -50%);
+}
+
+.chevron-down {
+    border-style: solid;
+	border-width: 0 4px 4px 0;
+	display: inline-block;
+	height: 50px;
+	transform: rotate(45deg);
+	vertical-align: top;
+	width: 50px;
 }
