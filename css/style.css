@@ -9,6 +9,7 @@ body, html {
 /* Button Styles */
 .btn {
     text-transform: uppercase;
+    transition: all 0.2s;
 }
 
 .btn:active,
@@ -42,19 +43,24 @@ body, html {
     border: none;
     margin-bottom: 0;
     position: fixed;
-    text-transform: uppercase;
     width: 100%;
     z-index: 100;
+
+    /* Navbar text styles */
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 .navbar-default .navbar-brand {
     color: #2b3555;
     text-decoration: none;
+    transition: all 0.2s;
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-    color: #2b3555;
+    color: #00c3ca;
     background-color: transparent;
 }
 
@@ -65,6 +71,7 @@ body, html {
 .navbar-default .navbar-nav > li > a {
     color: #2b3555;
     text-decoration: none;
+    transition: all 0.2s;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
@@ -104,8 +111,8 @@ body, html {
 
 /* Hero Image Styles */
 .hero-image {
+    background: url("../img/laptop.jpeg"), #888888;
     background-attachment: fixed;
-    background-image: url("../img/laptop.jpeg");
 
     /* Hero image height */
     height: 100vh;
