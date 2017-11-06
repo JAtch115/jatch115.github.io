@@ -141,7 +141,6 @@ body, html {
 }
 
 .hero-bottom {
-    color: #00c3ca;
     position: absolute;
     left: 50%;
     top: 90%;
@@ -150,10 +149,17 @@ body, html {
 
 .chevron-down {
     border-style: solid;
-	border-width: 0 4px 4px 0;
+    border-width: 0 4px 4px 0;
+    color: #00c3ca;
 	display: inline-block;
 	height: 50px;
 	transform: rotate(45deg);
 	vertical-align: top;
 	width: 50px;
+}
+
+/* Content Block Styles */
+.content-block {
+    padding-top: 50px; 
+    margin-top: -50px;
 }
