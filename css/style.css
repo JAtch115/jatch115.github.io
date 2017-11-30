@@ -120,7 +120,11 @@ body, html {
     /* Position and center the image */
     background-position: center;
     background-repeat: no-repeat;
+<<<<<<< HEAD
     background-size: auto 120%;
+=======
+    background-size: 120%;
+>>>>>>> d746de8142bf45066340554b25869efc2cf40ef4
     position: relative;
 }
 
