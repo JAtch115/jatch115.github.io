@@ -17,6 +17,7 @@ main {
 
 /* Button Styles */
 .btn {
+    border-radius: 4px;
     text-transform: uppercase;
     transition: all 0.2s;
 }
@@ -225,7 +226,7 @@ main {
 }
 
 #content-block-2 {
-    background: #c2e3e6;
+    background: #c7e5e8;
     color: #000000;
     padding-top: 25px;
     text-align: center;
