@@ -1,9 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Questrial');
 
 body, html {
-    background-color: #ffffff;
+    background-color: #888888;
     font-family: 'Questrial', sans-serif;
     height: 100%;
+}
+
+main {
+    color: #ececec;
+    width: 100%;
+}
+
+.secondary-text-color {
+    color: #00c3ca;
 }
 
 /* Button Styles */
@@ -147,19 +156,120 @@ body, html {
     transform: translate(-50%, -50%);
 }
 
+.hero-bottom a {
+    text-decoration: none;
+}
+
+.hero-bottom h4 {
+    color: #ffffff;
+    font-size: 1.4em;
+    letter-spacing: 2px;
+    opacity: 0.8;
+    margin-bottom: -2px;
+    transition: all 0.2s;
+}
+
+.hero-bottom > a:hover > h4,
+.hero-bottom > a:focus > h4,
+.hero-bottom > a:active > h4,
+.hero-bottom > a:hover > span,
+.hero-bottom > a:focus > span,
+.hero-bottom > a:active > span {
+    color: #00c3ca;
+}
+
 .chevron-down {
     border-style: solid;
-    border-width: 0 4px 4px 0;
-    color: #00c3ca;
+    border-width: 0 3px 3px 0;
+    color: #ffffff;
 	display: inline-block;
-	height: 50px;
+    height: 25px;
+    opacity: 0.8;
 	transform: rotate(45deg);
+    transition: all 0.2s;
 	vertical-align: top;
-	width: 50px;
+	width: 25px;
 }
 
 /* Content Block Styles */
 .content-block {
-    padding-top: 50px; 
+    font-size: 1.2em;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+.content-block-header {
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+    .content-block {
+        text-align: left;
+    }
+    .content-block-header {
+        margin-top: 0;
+    }
+
+}
+
+#content-block-1 {
+    background: #ececec;
+    color: #000000;
+    padding-top: 75px; 
     margin-top: -50px;
+}
+
+#content-block-1 .content-block-header {
+    color: #2b3555;
+}
+
+#content-block-2 {
+    background: #c2e3e6;
+    color: #000000;
+    padding-top: 25px;
+    text-align: center;
+}
+
+#content-block-2 .content-block-header {
+    color: #2b3555;
+}
+
+/* Footer Styles */
+footer {
+    background: #888888;
+    color: #ececec;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    width: 100%;
+}
+
+.footer-left,
+.footer-right {
+    text-align: center;
+}
+
+.copyright-text {
+    font-size: 1.2em;
+    letter-spacing: 1px;
+}
+
+@media (min-width: 768px) {
+    .footer-left .copyright-text {
+        text-align: left;
+    }
+    .footer-right .social-links {
+        text-align: right;
+    }
+}
+
+.icon img {
+    filter: brightness(90%);
+    max-width: 25px;
+    margin-left: 15px;
+    transition: all 0.2s;
+}
+
+a.icon:hover > img {
+    filter: brightness(100%);
 }
