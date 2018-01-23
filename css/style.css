@@ -230,7 +230,8 @@ h4 {
 }
 
 .content-block-text a {
-    color: #4c5d96;
+    color: #2b3555;
+    font-weight: bold;
     text-decoration: none;
 }
 
@@ -273,8 +274,8 @@ h4 {
     }
 }
 .skill-logo {
-    height: 100px;
-    width: 100px;
+    height: 90px;
+    width: 90px;
 }
 
 .caption-text {
