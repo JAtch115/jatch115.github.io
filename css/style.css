@@ -213,11 +213,11 @@ h4 {
 .content-block {
     font-size: 1.2em;
     padding-bottom: 30px;
+    padding-top: 30px;
     text-align: center;
 }
 
 .content-block-title {
-    margin-top: 30px;
     text-transform: uppercase;
 }
 
@@ -251,7 +251,6 @@ h4 {
 #content-block-2 {
     background: #ececec;
     color: #000000;
-    text-align: center;
 }
 
 #content-block-3 {
