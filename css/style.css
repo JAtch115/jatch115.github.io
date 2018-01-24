@@ -132,7 +132,7 @@ h4 {
 
 /* Hero Image Styles */
 .hero-image {
-    background: url("../img/laptop.jpeg"), #888888;
+    background: url("./img/laptop.jpeg"), #888888;
     background-attachment: fixed;
 
     /* Hero image height */
