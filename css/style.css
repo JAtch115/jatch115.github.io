@@ -241,19 +241,19 @@ h4 {
     color: #00c3ca;
 }
 
-#projects {
+#projects-block {
     background: #ffffff;
     color: #000000;
     padding-top: 80px; 
     margin-top: -50px;
 }
 
-#skills {
+#skills-block {
     background: #ececec;
     color: #000000;
 }
 
-#contact {
+#contact-block {
     background: #c7e5e8;
     color: #000000;
     text-align: center;
