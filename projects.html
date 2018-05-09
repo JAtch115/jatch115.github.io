@@ -11,110 +11,111 @@
 </head>
 
 <body>
-<header>
-    <nav role="navigation" class="navbar navbar-default">
+    <header>
+        <nav role="navigation" class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <button data-target="#navbar-collapse" data-toggle="collapse" class="navbar-toggle" type="button">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="./index.html" class="navbar-brand brand">James Atchison</a>
+                </div>
+                <div id="navbar-collapse" class="collapse navbar-collapse">		      
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="./about.html">About</a></li>
+                        <li><a href="./skills.html">Skills</a></li>
+                        <li><a href="./projects.html">Projects</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="content-block">
+            <div class="container">
+                <div class="row header-offset">
+                    <h1 class="page-title content-block-title">Projects</h1>
+                </div>
+                <div class="row">
+                    <div class="col col-md-6">
+                        <img  class="img-responsive content-block-img" src="./img/dtmbcoursereg.png" alt="DTMB Course Registration">
+                    </div>
+                    <div class="col col-md-6">
+                        <h4 class="content-block-title">DTMB Course Registration</h4>
+                        <p class="content-block-text">
+                            DTMB Course Registration is a project that I worked on as an intern at the State of Michigan Department of Technology Management and Budget.
+                            I worked with two other interns in an Agile development environment to create a web application that allows State of Michigan employees to register for training courses or events.
+                            We created detailed diagrams for the class and database structure as well as functional design documents and systems design documents. The entire project empasized State of Michigan design standards as well as ADA compliance.
+                            The application was created using ASP.NET and utilizing HTML5, CSS3, Bootstrap, ASP.NET Razor, ASP.NET MVC, SQL Server 2012, and Microsoft Active Directory for the Log-ins.
+                            It allows users to register for courses or events, see upcoming courses or events, and give feedback for courses or events that they have already attended.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="content-block">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-md-6">
+                        <img  class="img-responsive content-block-img" src="./img/marcoleloader.png" alt="Marcole Installer">
+                    </div>
+                    <div class="col col-md-6">
+                        <h4 class="content-block-title">Marcole Installer</h4>
+                        <p class="content-block-text">
+                            Marcole Installer is a project that I worked on as an intern at Marcole Interactive Systems. This projects was to create an installation wizard for Marcole software.
+                            This application is written entirely in Java so that it would be able to be used on many different platforms. The user is able to agree to the license agreement, enter their
+                            license information from Marcole, and select where they would like the installer to install the software. This project also included writing detailed documentation for the user
+                            so that they are able to make sure they can use the software correctly.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="content-block">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-md-6">
+                        <img  class="img-responsive content-block-img" src="./img/sequentialurl.png" alt="Sequential URL Downloader">
+                    </div>
+                    <div class="col col-md-6">
+                        <h4 class="content-block-title">Sequential URL Downloader</h4>
+                        <p class="content-block-text">
+                            Sequential URL Downloader is a side project that I worked on. Whenever I had the need to download many sequentially named files I realized that I did not have a tool that could
+                            efficiently accomplish what I needed. I decided to create my own application to solve this problem. The Sequential URL Downloader allows the user to enter the base URL of the file,
+                            the range of numbers that they want to download, and the file type extension. The tool creates a list of URLs, checks to see if they file is available, then prompts the user for the
+                            location on their computer that they want to download the files to. The application is written in C# using Visual Studio 2017.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
         <div class="container">
-            <div class="navbar-header">
-                <button data-target="#navbar-collapse" data-toggle="collapse" class="navbar-toggle" type="button">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a href="./index.html" class="navbar-brand brand">James Atchison</a>
-            </div>
-            <div id="navbar-collapse" class="collapse navbar-collapse">		      
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="./about.html">About</a></li>
-                    <li><a href="./skills.html">Skills</a></li>
-                    <li><a href="./projects.html">Projects</a></li>
-                    <li><a href="./contact.html">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-</header>
-<main>
-    <section class="content-block">
-        <div class="container">
-            <div class="row header-offset">
-                <h1 class="page-title content-block-title">Projects</h1>
-            </div>
             <div class="row">
-                <div class="col col-md-6">
-                    <img  class="img-responsive content-block-img" src="./img/dtmbcoursereg.png" alt="DTMB Course Registration">
+                <div class="col col-md-6 footer-left">
+                    <h5 class="copyright-text">&copy; 2018 James Atchison</h5>
                 </div>
-                <div class="col col-md-6">
-                    <h4 class="content-block-title">DTMB Course Registration</h4>
-                    <p class="content-block-text">
-                        DTMB Course Registration is a project that I worked on as an intern at the State of Michigan Department of Technology Management and Budget.
-                        I worked with two other interns in an Agile development environment to create a web application that allows State of Michigan employees to register for training courses or events.
-                        We created detailed diagrams for the class and database structure as well as functional design documents and systems design documents. The entire project empasized State of Michigan design standards as well as ADA compliance.
-                        The application was created using ASP.NET and utilizing HTML5, CSS3, Bootstrap, ASP.NET Razor, ASP.NET MVC, SQL Server 2012, and Microsoft Active Directory for the Log-ins.
-                        It allows users to register for courses or events, see upcoming courses or events, and give feedback for courses or events that they have already attended.
-                    </p>
+                <div class="col col-md-6 footer-right">
+                    <div class="social-links">
+                        <a class="icon" href="https://twitter.com/jatch115"><img src="./img/logos/twitter.png" alt="Twitter"></a>
+                        <a class="icon" href="https://www.linkedin.com/in/jamesatchison/"><img src="./img/logos/linkedin.png" alt="LinkedIn"></a>
+                        <a class="icon" href="https://github.com/jatch115"><img src="./img/logos/github.png" alt="GitHub"></a>
+                    </div>
                 </div>
             </div>
         </div>
-    </section>
-    <section class="content-block">
-        <div class="container">
-            <div class="row">
-                <div class="col col-md-6">
-                    <img  class="img-responsive content-block-img" src="./img/marcoleloader.png" alt="Marcole Installer">
-                </div>
-                <div class="col col-md-6">
-                    <h4 class="content-block-title">Marcole Installer</h4>
-                    <p class="content-block-text">
-                        Marcole Installer is a project that I worked on as an intern at Marcole Interactive Systems. This projects was to create an installation wizard for Marcole software.
-                        This application is written entirely in Java so that it would be able to be used on many different platforms. The user is able to agree to the license agreement, enter their
-                        license information from Marcole, and select where they would like the installer to install the software. This project also included writing detailed documentation for the user
-                        so that they are able to make sure they can use the software correctly.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="content-block">
-        <div class="container">
-            <div class="row">
-                <div class="col col-md-6">
-                    <img  class="img-responsive content-block-img" src="./img/sequentialurl.png" alt="Sequential URL Downloader">
-                </div>
-                <div class="col col-md-6">
-                    <h4 class="content-block-title">Sequential URL Downloader</h4>
-                    <p class="content-block-text">
-                        Sequential URL Downloader is a side project that I worked on. Whenever I had the need to download many sequentially named files I realized that I did not have a tool that could
-                        efficiently accomplish what I needed. I decided to create my own application to solve this problem. The Sequential URL Downloader allows the user to enter the base URL of the file,
-                        the range of numbers that they want to download, and the file type extension. The tool creates a list of URLs, checks to see if they file is available, then prompts the user for the
-                        location on their computer that they want to download the files to. The application is written in C# using Visual Studio 2017.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-</main>
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col col-md-6 footer-left">
-                <h5 class="copyright-text">&copy; 2018 James Atchison</h5>
-            </div>
-            <div class="col col-md-6 footer-right">
-                <div class="social-links">
-                    <a class="icon" href="https://twitter.com/jatch115"><img src="./img/logos/twitter.png" alt="Twitter"></a>
-                    <a class="icon" href="https://www.linkedin.com/in/jamesatchison/"><img src="./img/logos/linkedin.png" alt="LinkedIn"></a>
-                    <a class="icon" href="https://github.com/jatch115"><img src="./img/logos/github.png" alt="GitHub"></a>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
-</body>
+    </footer>
 
-<script src="./js/jquery-3.2.1.min.js"></script>
-<script src="./js/bootstrap.min.js"></script>
-<script src="./js/smoothscroll.js"></script>
+    <script src="./js/jquery-3.2.1.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/smoothscroll.js"></script>
+
+</body>
 
 </html>
             
